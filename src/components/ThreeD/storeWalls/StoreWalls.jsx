@@ -28,7 +28,7 @@ const StoreWalls = () => {
 
   return (
     <>
-      <mesh scale={[1,1.25,1]} receiveShadow>
+      <mesh position={[0, 9.3, -50.2]} receiveShadow>
         <planeGeometry args={[100, 15]} />
         <meshStandardMaterial
           map={map}
