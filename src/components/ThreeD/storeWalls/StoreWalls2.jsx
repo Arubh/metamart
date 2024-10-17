@@ -3,7 +3,7 @@ import React from "react";
 import * as THREE from "three";
 
 const StoreWalls2 = () => {
-  const map = useTexture("./textures/store_walls/beige_wall_001_diff_1k.png");
+  // const map = useTexture("./textures/store_walls/beige_wall_001_diff_1k.png");
   const displacementMap = useTexture(
     "./textures/store_walls/beige_wall_001_disp_1k.png"
   );
