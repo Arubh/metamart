@@ -120,7 +120,7 @@ export function Door(props) {
               name="Mesh001"
               castShadow
               receiveShadow
-              geometry={nodes.Mesh001.geometry}
+              // geometry={nodes.Mesh001.geometry}
               material={materials['text.003']}
               position={[0.094, 0.427, -0.774]}
               rotation={[-3.142, -0.197, -3.142]}

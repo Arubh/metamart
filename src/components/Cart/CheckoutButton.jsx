@@ -11,13 +11,13 @@ const CheckoutButton = ({cost,success}) => {
 
     try {
       // Request an order from the server
-      // const response = await fetch('/api/create-order', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ amount:Number(cost), currency: 'INR' }), // Example amount in INR
-      // });
+      const response = await fetch('/api/create-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ amount:Number(cost), currency: 'INR' }), // Example amount in INR
+      });
 
-      // const { id, currency, amount } = await response.json();
+      const { id, currency, amount } = await response.json();
 
       // Razorpay options
       const options = {
