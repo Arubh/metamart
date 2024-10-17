@@ -11,7 +11,12 @@ export function Agapanthus(props) {
     <group {...props} dispose={null}>
       <group position={[-0.215, 0, 0]} scale={0.01}>
         <mesh castShadow receiveShadow geometry={nodes.Mesh.geometry} material={materials.leaf_1} />
-      
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Mesh_1.geometry}
+          material={materials.leaf_2}
+        />
         <mesh
           castShadow
           receiveShadow
