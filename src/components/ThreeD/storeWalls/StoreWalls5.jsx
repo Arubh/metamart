@@ -3,6 +3,7 @@ import React from "react";
 import * as THREE from "three";
 
 const StoreWalls5 = () => {
+  const map = useTexture("./textures/store_walls/beige_wall_001_diff_1k.png");
   const displacementMap = useTexture(
     "./textures/store_walls/beige_wall_001_disp_1k.png"
   );
@@ -28,7 +29,6 @@ const StoreWalls5 = () => {
   return (
     <>
       <mesh
-        rotation-y={Math.PI * -0.5}
         position={[-49.8, 9.3, -29.5]}
         receiveShadow
         scale={[0.88, 1.25, 1]}
