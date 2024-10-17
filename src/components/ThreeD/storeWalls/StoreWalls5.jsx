@@ -29,7 +29,7 @@ const StoreWalls5 = () => {
   return (
     <>
       <mesh
-        position={[-49.8, 9.3, -29.5]}
+        rotation-y={Math.PI * -0.5}
         receiveShadow
         scale={[0.88, 1.25, 1]}
       >
