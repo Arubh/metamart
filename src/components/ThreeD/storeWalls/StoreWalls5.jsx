@@ -32,6 +32,7 @@ const StoreWalls5 = () => {
         rotation-y={Math.PI * -0.5}
         position={[-49.8, 9.3, -29.5]}
         receiveShadow
+        scale={[0.88, 1.25, 1]}
       >
         <planeGeometry args={[47, 15]} />
         <meshStandardMaterial
