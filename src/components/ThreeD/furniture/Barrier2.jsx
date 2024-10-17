@@ -15,6 +15,12 @@ export function Barrier2(props) {
       scale={2}
       rotation={[0, Math.PI / 2, 0]}
     >
+    <mesh
+      castShadow
+      receiveShadow
+      geometry={nodes.Cube.geometry}
+      material={materials.Barrier}
+    />
       <mesh
         castShadow
         receiveShadow
